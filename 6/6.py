@@ -64,8 +64,9 @@ class PuzzleGrid:
 
 
 
+
 pg = PuzzleGrid(minX, maxX, minY, maxY)
 for coord in coords:
-    pg.add_and_adjust(coord)
+    pg.add_and_spread(coord)
 
 
