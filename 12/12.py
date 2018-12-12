@@ -28,11 +28,11 @@ def parse_starting_state(starting_str):
 # def t_to_b(t):
 #     return (c == "#" for c in t)
 #
-# def t_to_d(t):
-#     d = deque(maxlen=5)
-#     for c in t:
-#         d.append(c == "#")
-#     return d
+def t_to_d(t):
+    d = deque(maxlen=5)
+    for c in t:
+        d.append(c == "#")
+    return d
 #
 # def gen_f(i, s):
 #     return lambda x: x[i] == s
